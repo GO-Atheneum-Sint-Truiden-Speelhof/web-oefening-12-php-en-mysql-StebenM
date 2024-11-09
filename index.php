@@ -6,7 +6,7 @@
 <body>
 	<div class="container">
 
-		<?php include("include/nav.php");
+		<?php include("include/start.php");
 			if(!isset($_GET['page']))
 			{
 				include("include/".$_GET['page'].".php");
